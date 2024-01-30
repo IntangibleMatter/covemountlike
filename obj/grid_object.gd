@@ -1,3 +1,4 @@
+class_name GridObject
 extends CharacterBody2D
 
 
