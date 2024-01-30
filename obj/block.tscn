@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://cqsao4b82ser7"]
+[gd_scene load_steps=3 format=3 uid="uid://caa2bhwd3msmx"]
 
-[ext_resource type="PackedScene" uid="uid://cdmxqannt3npk" path="res://obj/grid_object.tscn" id="1_v1fah"]
+[ext_resource type="PackedScene" uid="uid://cnuryc823y88v" path="res://obj/grid_mover.tscn" id="1_dq38w"]
 [ext_resource type="Texture2D" uid="uid://gfxldi1ldl1w" path="res://assets/obj/block.png" id="2_xq2tr"]
 
-[node name="Block" instance=ExtResource("1_v1fah")]
+[node name="Block" instance=ExtResource("1_dq38w")]
 
 [node name="Sprite2D" parent="." index="1"]
 texture = ExtResource("2_xq2tr")

@@ -1,14 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://csshw3y4mrahu"]
 
+[ext_resource type="PackedScene" uid="uid://cdmxqannt3npk" path="res://obj/grid_object.tscn" id="1_645dv"]
 [ext_resource type="Texture2D" uid="uid://r6c3vg0vkn05" path="res://assets/env/x.png" id="1_kuabs"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_jmehy"]
-size = Vector2(31, 31)
+[node name="X" instance=ExtResource("1_645dv")]
 
-[node name="X" type="Area2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_jmehy")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" parent="." index="1"]
 texture = ExtResource("1_kuabs")
